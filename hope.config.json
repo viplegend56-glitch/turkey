@@ -44,7 +44,7 @@
     "minHandoffSol": 0.02,
     "graceSeconds": 120,
     "mode": "signed-up-first",
-    "startsAt": "2026-11-26T09:00",
+    "startsAt": "2026-11-26T16:28",
     "keepOrder": true
   },
   "focusTags": {
@@ -2137,6 +2137,14 @@
       "action": "line.added",
       "routing": true,
       "details": "Thanksgiving line grown from 24 to 104 charities, all food-related: food banks, meal programs, meals on wheels, food rescue and children's hunger groups. 4 signed up with donate.gg, 100 by card.",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T21:28:36.031Z",
+      "actor": "Admin",
+      "action": "rotation.restarted",
+      "routing": true,
+      "details": "Started the rotation over from the first charity at 2026-11-26T16:28 (America/New_York), was 2026-11-26T09:00",
       "reason": ""
     }
   ],
