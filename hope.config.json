@@ -44,7 +44,7 @@
     "minHandoffSol": 0.02,
     "graceSeconds": 120,
     "mode": "signed-up-first",
-    "startsAt": "2026-11-26T16:28",
+    "startsAt": "2026-11-26T17:31",
     "keepOrder": true
   },
   "focusTags": {
@@ -2153,6 +2153,14 @@
       "action": "project.updated",
       "routing": true,
       "details": "X: https://x.com/turkeycoinpf; Donation wallet: 5BxsjAAJXAmScQsG8pe5uvggtNK3rhyeKv7duND2em2R",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T22:31:12.963Z",
+      "actor": "Admin",
+      "action": "rotation.restarted",
+      "routing": true,
+      "details": "Started the rotation over from the first charity at 2026-11-26T17:31 (America/New_York), was 2026-11-26T16:28",
       "reason": ""
     }
   ],
