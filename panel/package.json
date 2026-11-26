@@ -1,0 +1,10 @@
+{
+  "name": "turkeycoin-admin-panel",
+  "private": true,
+  "type": "module",
+  "description": "Password-protected Turkeycoin settings panel. Publishes hope.config.json to the site's GitHub repo.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "turkeycoin-site",
+  "private": true,
+  "type": "module",
+  "description": "Turkeycoin ($TURKEY) charity site: static page in docs/, admin panel in panel/, and the counter job.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

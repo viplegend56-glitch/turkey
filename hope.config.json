@@ -1,0 +1,2144 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Turkeycoin",
+    "ticker": "$TURKEY",
+    "network": "Solana",
+    "slogan": "Thanksgiving, on chain.",
+    "contractAddress": null,
+    "donationWallet": null,
+    "links": {
+      "x": null,
+      "telegram": null,
+      "website": "https://turkeycoin.site"
+    }
+  },
+  "chain": {
+    "explorer": "https://solscan.io",
+    "relayProgram": "RLAYHr9TRFcKB2ubYQhspcnXiaGpaVzNQvHytt47RZu",
+    "usdcMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+  },
+  "schedule": {
+    "timezone": "America/New_York",
+    "campaigns": [
+      {
+        "id": "thanksgiving",
+        "name": "Thanksgiving",
+        "start": "2026-11-26T00:00",
+        "end": "2026-11-27T00:00",
+        "intro": "One day around the table. Every 15 minutes, the creator fees go to the next charity in line: Thanksgiving dinners, food banks and meal programs across the US.",
+        "focus": [
+          "Families experiencing hardship",
+          "People facing food insecurity",
+          "Senior citizens",
+          "Homeless communities",
+          "Anyone who needs extra support this Thanksgiving"
+        ]
+      }
+    ]
+  },
+  "rotation": {
+    "intervalSeconds": 900,
+    "paused": false,
+    "pauseReason": "",
+    "minHandoffSol": 0.02,
+    "graceSeconds": 120,
+    "mode": "signed-up-first",
+    "startsAt": "2026-11-26T09:00",
+    "keepOrder": true
+  },
+  "focusTags": {
+    "food-security": "Food security",
+    "homelessness": "Homelessness",
+    "seniors": "Seniors",
+    "families": "Families",
+    "children": "Children",
+    "critical-illness": "Critical illness",
+    "military": "Veterans & military families",
+    "community": "Local community"
+  },
+  "charities": [
+    {
+      "id": "feeding-america-tampa-bay-inc",
+      "name": "Feeding America Tampa Bay Inc",
+      "location": "Tampa, FL",
+      "focus": [
+        "food-security",
+        "families"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "b03a1440-9cc2-4761-9578-20d8a0d19eec",
+        "configId": "0x0b02c8f428ef558e039189e8e160ab5180d601927965bbf9af80ee4c9f0ab486",
+        "taxId": "59-2116576",
+        "signedUp": true,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://ftb.org"
+    },
+    {
+      "id": "slice-out-hunger",
+      "name": "Slice Out Hunger",
+      "location": "New York City, NY",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "e2df8522-8406-5799-a83c-fabc4e522b8e",
+        "configId": "0xe26d317da095a9ffb96fe6f37cab6468e8f2209c0ba29764783bf67f2ffb4a85",
+        "taxId": "47-4438249",
+        "signedUp": true,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://sliceouthunger.org"
+    },
+    {
+      "id": "georgia-mountain-food-bank-inc",
+      "name": "Georgia Mountain Food Bank Inc",
+      "location": "Gainesville, GA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "dba2b205-4484-45a5-8822-c7672ff4e81b",
+        "configId": "0xae159292cb723eb106463c6c6bac4e3c867565b833a3cd10757c5db565e93d6b",
+        "taxId": "26-2787610",
+        "signedUp": true,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.gamountainfoodbank.org"
+    },
+    {
+      "id": "feeding-america",
+      "name": "Feeding America",
+      "location": "Chicago, IL",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "245683b3-5f36-5f59-be9d-54127a9a744f",
+        "configId": "0x63f61d5832e2b3839a7336f84c5ae00bd6759ad70dfe935f73d6eba4255f4f49",
+        "taxId": "36-3673599",
+        "signedUp": true,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.feedingamerica.org"
+    },
+    {
+      "id": "operation-turkey-daily",
+      "name": "Operation Turkey Daily",
+      "location": "Bastrop, TX",
+      "focus": [
+        "homelessness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "a504eedd-7492-527e-9026-e697fbb16c0c",
+        "configId": "0x1704ac85934c070ff0b45b6b74210a57bca57f6ddea1df56f2093f2d6b4d07d1",
+        "taxId": "85-3468462",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.operationturkey.com/"
+    },
+    {
+      "id": "thanksgiving-heroes-llc",
+      "name": "Thanksgiving Heroes LLC",
+      "location": "Draper, UT",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "39759423-4698-5968-9640-dc9f47ad9354",
+        "configId": "0xbaea80c9bee6fc96d527a70e964195e253e77b105e269892554695a45cfa8788",
+        "taxId": "47-5022580",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://slc.thanksgivingheroes.org/"
+    },
+    {
+      "id": "thanksgiving-heroes-foundation",
+      "name": "Thanksgiving Heroes Foundation",
+      "location": "Riverton, UT",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "fe8e4142-a8b9-5f65-8f32-529296fdee43",
+        "configId": "0x6000cadaeeead7708ce57df3276415d88b9c33e677e92b043e02c3e07c53ec67",
+        "taxId": "33-4769752",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://thanksgivingheroes.org/"
+    },
+    {
+      "id": "new-world-flood",
+      "name": "New World Flood",
+      "location": "Lansing, MI",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "2dee24c3-61e0-5380-87eb-5607a4a33d64",
+        "configId": "0x410db5fb15431b364154509d9cd3ada8f6d3b0c42bc2c0fc7e572b99f3cd3d21",
+        "taxId": "45-4363079",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.newworldflood.org"
+    },
+    {
+      "id": "glide-foundation",
+      "name": "Glide Foundation",
+      "location": "San Francisco, CA",
+      "focus": [
+        "homelessness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "59cd3663-c4c3-433b-95a6-2741cc26d261",
+        "configId": "0xff97792097ab46fc761bdc05a141d0f1447d1d211130a695e57637d6fe8c60bd",
+        "taxId": "94-1156481",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.glide.org"
+    },
+    {
+      "id": "feeding-america-kentuckys-heartland-inc",
+      "name": "Feeding America Kentucky's Heartland, Inc.",
+      "location": "Elizabethtown, KY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "85bfeae6-0052-4ac4-92e6-a439282a61c1",
+        "configId": "0xc7cda4a346043967343064551800cb1909f9409d0d8065bd1c9d1da5eaa196f6",
+        "taxId": "61-1043635",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://feedingamericaky.org"
+    },
+    {
+      "id": "feeding-america-riverside-and-san-bernardino-counties",
+      "name": "Feeding America Riverside and San Bernardino Counties",
+      "location": "Riverside, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "50c12303-af5b-405e-ad29-528e10d49e5a",
+        "configId": "0x67686f9e4443c3ed7a94e749056e9f7a3dd0dbf0f46ba0c79712ab73795456c6",
+        "taxId": "33-0072922",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.feedingamericaie.org"
+    },
+    {
+      "id": "st-johns-bread-and-life-program-inc",
+      "name": "St. John's Bread and Life Program, Inc.",
+      "location": "Brooklyn, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "6548bb7f-3850-4d57-9b2c-c73fe1251a12",
+        "configId": "0xf0a2ed5f5391e5cb9aa5481d7da53a794dec1cadbb433757fa4cb0cae1aa8306",
+        "taxId": "11-3174514",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.breadandlife.org/"
+    },
+    {
+      "id": "food-on-foot",
+      "name": "Food on Foot",
+      "location": "Los Angeles, CA",
+      "focus": [
+        "homelessness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "2f2a5612-d167-4f89-bc38-20d574e856c7",
+        "configId": "0x7955c2a4e2a918844d2ed9b1912fdddb98d6fd6e99dfd1fc6762bfb9ca7f27dd",
+        "taxId": "31-1581053",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.foodonfoot.org"
+    },
+    {
+      "id": "gods-love-we-deliver-inc",
+      "name": "God's Love We Deliver, Inc.",
+      "location": "New York City, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "beaabc45-37f7-4758-85cf-d228b96daf65",
+        "configId": "0x6c27ca1cd84ab780716b3931870c580ea6dbf117cd17a1c873b966173512f979",
+        "taxId": "13-3366846",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.glwd.org"
+    },
+    {
+      "id": "stowe-mission-of-central-ohio",
+      "name": "Stowe Mission of Central Ohio",
+      "location": "Columbus, OH",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "55379a57-fd84-418f-b46b-f061112ea9ed",
+        "configId": "0x1c1b26efb04f07343142a627d940c79f2896f6f21f734fafcbd2b84bd5269069",
+        "taxId": "32-0326645",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.stowemission.org/"
+    },
+    {
+      "id": "open-arms-of-minnesota-inc",
+      "name": "Open Arms of Minnesota, Inc.",
+      "location": "Minneapolis, MN",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "27046e94-8179-4abc-877e-4451ae26a8f8",
+        "configId": "0x497378c89ab64cd3d8585eadba7604ee4c896806fd68ade8b647aae992afc3f3",
+        "taxId": "41-1681317",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.openarmsmn.org"
+    },
+    {
+      "id": "person-to-person-inc",
+      "name": "Person to Person, Inc.",
+      "location": "Darien, CT",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "715ba30f-2ea8-41f7-be3b-b7d65f4779cb",
+        "configId": "0xcb8c64d517d00c86584ba6fe0ac951527cd1bdc4c890dfdba792a13208655994",
+        "taxId": "06-1422248",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.p2phelps.org/"
+    },
+    {
+      "id": "new-hope-ministries-inc",
+      "name": "New Hope Ministries Inc",
+      "location": "Dillsburg, PA",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "740ffe08-7258-463c-8802-00c5716ddd13",
+        "configId": "0x7f5a85cedaba1ede3a0a6ba33b0a3b4ecd55fe687db4a4cc33629c325762b041",
+        "taxId": "23-2223120",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.nhm-pa.org/"
+    },
+    {
+      "id": "rogue-food-unites",
+      "name": "Rogue Food Unites",
+      "location": "Ashland, OR",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "cf3adea8-cc33-4b94-a6a1-446c168f7d62",
+        "configId": "0x7672ae499a5f44c3fbda963b0d574e49bad85dd9a33e531f3b4a465a76a7907a",
+        "taxId": "85-3168023",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.roguefoodunites.org/"
+    },
+    {
+      "id": "good-neighbor-settlement-house",
+      "name": "Good Neighbor Settlement House",
+      "location": "Brownsville, TX",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "2b1b4840-81cd-4425-a88e-771445794aa1",
+        "configId": "0xbf1a5bdb5fe3ad594b67a89bb1c25ed86bca5381ef58518306eb1f1d11d2a8b8",
+        "taxId": "74-1211654",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.goodneighborsettlement.org/"
+    },
+    {
+      "id": "jesus-provides-our-daily-bread",
+      "name": "Jesus Provides Our Daily Bread",
+      "location": "Chico, CA",
+      "focus": [
+        "homelessness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "6635e7f1-bc1b-4811-b311-ae1cc127082d",
+        "configId": "0xa17ee75bffd3700d0b55f502b65d95deac3468cad3d9efdbb30b382a1016431b",
+        "taxId": "68-0290819",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.jesuscenter.org"
+    },
+    {
+      "id": "teen-kitchen-project",
+      "name": "Teen Kitchen Project",
+      "location": "Aptos, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "5b4223c9-731d-4efa-8c01-759b04c2452d",
+        "configId": "0xb8d478fcb8aa5e568073ecffb4fa4de86680b1101ae3a831ebed8d938992ca4e",
+        "taxId": "27-0524692",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://teenkitchenproject.org"
+    },
+    {
+      "id": "convoy-of-hope",
+      "name": "Convoy of Hope",
+      "location": "Springfield, MO",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "e7791e99-5ef6-59d2-8b85-4505457fad03",
+        "configId": "0xd927890e4efc796005b8e2597a73e912c83f309e493477453bcb5857d634efb7",
+        "taxId": "68-0051386",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://convoyofhope.org"
+    },
+    {
+      "id": "food-for-the-poor-inc",
+      "name": "Food For The Poor, Inc.",
+      "location": "Coconut Creek, FL",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "b5c3ec66-e7d6-4242-88b7-b57cffb95da7",
+        "configId": "0x0158b1eb7c0c9b73982c7725e1922efca3000c0559a422a294287ae65ce47e87",
+        "taxId": "59-2174510",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodforthepoor.org"
+    },
+    {
+      "id": "world-food-program-usa",
+      "name": "World Food Program USA",
+      "location": "Washington, DC",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "c7346262-96ff-4d78-bdcc-061e97d15e90",
+        "configId": "0x7f35e71416e91a29461791b739999d83fc3bad0e48d82f7cd6786b6ea39c41cb",
+        "taxId": "13-3843435",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://wfpusa.org"
+    },
+    {
+      "id": "the-growhaus",
+      "name": "The GrowHaus",
+      "location": "Denver, CO",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "83096cf4-acb9-414a-9925-ee38f67b833b",
+        "configId": "0x1eb7a9ffcd7eadc8ffbc2fa46c4c8e04c6e05e9c2e76b1438df6955baf4a6421",
+        "taxId": "20-3533527",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.thegrowhaus.org/"
+    },
+    {
+      "id": "eat-learn-play",
+      "name": "Eat. Learn. Play.",
+      "location": "Oakland, CA",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "96743615-198f-51e7-8e35-303b40692989",
+        "configId": "0x43e4217f6eb45f23af52c7815d3f93c405739188b68fb15f3dc5a75dfe35654d",
+        "taxId": "83-1373602",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.eatlearnplay.org/"
+    },
+    {
+      "id": "meals-on-wheels-america",
+      "name": "Meals on Wheels America",
+      "location": "Arlington, VA",
+      "focus": [
+        "seniors",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "a6e56c17-ab79-4cd8-86d4-07c3abe741d3",
+        "configId": "0x3d48ccbd2394463a5b6bb99eaad53278fc3da5eac46cce174955793dcaa350e6",
+        "taxId": "23-7447812",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.mealsonwheelsamerica.org"
+    },
+    {
+      "id": "city-harvest-inc",
+      "name": "City Harvest, Inc.",
+      "location": "Brooklyn, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "c4cc44a2-92fe-4d62-bd41-58025f5c75c2",
+        "configId": "0x7d823a1467fa0465be555af859ce02d8469e14a16c42d7b4a6e64c8641872db8",
+        "taxId": "13-3170676",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.cityharvest.org"
+    },
+    {
+      "id": "kids-meals-inc",
+      "name": "Kids Meals Inc",
+      "location": "Houston, TX",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "12e0fc80-f58e-41c3-a8e8-83f8661fd85a",
+        "configId": "0x11877ad4098b3d1ef74fdf565af2915fe56d38927544c56ac151dcf55bc6887b",
+        "taxId": "76-0330447",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://kidsmealsinc.org"
+    },
+    {
+      "id": "second-harvest-heartland",
+      "name": "Second Harvest Heartland",
+      "location": "Brooklyn Park, MN",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "1571e485-34f9-5a21-a34a-7ab51de243c9",
+        "configId": "0xe7d8a64cc17076dc2a24e476cbd75eedc281a715439380fea0ca5bed4e8a13f5",
+        "taxId": "23-7417654",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.2harvest.org"
+    },
+    {
+      "id": "maryland-food-bank-inc",
+      "name": "Maryland Food Bank, Inc.",
+      "location": "Baltimore, MD",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "c9bd22e1-621f-47a8-bb58-87a6ada89daf",
+        "configId": "0x96f6e4ac604d04e9ad59fea3d630dcad2df0bae991935242b8381c1b7932e96a",
+        "taxId": "52-1135690",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.mdfoodbank.org/"
+    },
+    {
+      "id": "regional-food-bank-of-oklahoma",
+      "name": "Regional Food Bank of Oklahoma",
+      "location": "Oklahoma City, OK",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "b13d0e29-9d0d-46dd-a218-4953e9189541",
+        "configId": "0x31435f174fad5737cf386150f47d8a66b8c5af796a30fe24f0dff39bcfa64ad0",
+        "taxId": "73-1100380",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.regionalfoodbank.org"
+    },
+    {
+      "id": "food-bank-of-alaska",
+      "name": "Food Bank of Alaska",
+      "location": "Anchorage, AK",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "3bcf6951-8100-47d6-9406-a3bd70eec97a",
+        "configId": "0x7a5fb0424868eac62cbe5c3c58a2e4774ea408c1a9952d3053662fc96070b891",
+        "taxId": "92-0073175",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodbankofalaska.org"
+    },
+    {
+      "id": "northwest-harvest",
+      "name": "Northwest Harvest",
+      "location": "Seattle, WA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "aa2741ba-7424-5602-aa35-a2517306e8b4",
+        "configId": "0x39069b6f451727b07335715a4aed3e3e66075929665bf78712d4f32765460302",
+        "taxId": "91-0826037",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.northwestharvest.org"
+    },
+    {
+      "id": "no-kid-hungry-by-share-our-strength",
+      "name": "No Kid Hungry by Share Our Strength",
+      "location": "Washington, DC",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "d43087c4-ee8e-49f8-afda-cf2b6287cf90",
+        "configId": "0x15703c172e82d2941a06d7faa923199fb91523cc212d5dd0bd517336ad0d9037",
+        "taxId": "52-1367538",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.nokidhungry.org"
+    },
+    {
+      "id": "philabundance",
+      "name": "Philabundance",
+      "location": "Philadelphia, PA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "0564bb3e-7fd4-4099-8c71-f08b0f6f808d",
+        "configId": "0xb4fbced1c3921cbd43ac14b980825620feeb0429d4b21f52546b03b643ad4c5d",
+        "taxId": "23-2290505",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.philabundance.org"
+    },
+    {
+      "id": "houston-food-bank",
+      "name": "Houston Food Bank",
+      "location": "Houston, TX",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "74c5624d-03d2-55e8-bce9-959de36b9606",
+        "configId": "0x544b1710f5933f165663132ac45ddebb877e3e004978223939b1a3c055ee46be",
+        "taxId": "74-2181456",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.houstonfoodbank.org"
+    },
+    {
+      "id": "community-servings-inc",
+      "name": "Community Servings Inc",
+      "location": "Jamaica Plain, MA",
+      "focus": [
+        "critical-illness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "f87db87a-5b46-503f-a89b-fcfca22ffa03",
+        "configId": "0xbff5716e55a07ca7290aaca085de1af8ba5697a20abdd64340016303bae2b1c7",
+        "taxId": "22-3154028",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.servings.org/"
+    },
+    {
+      "id": "food-bank-for-new-york-city",
+      "name": "Food Bank For New York City",
+      "location": "New York City, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "175ff29b-056b-4699-8bbf-f84b7895c44b",
+        "configId": "0x84a6983e769163da746374cb7029ca2ae626075bbcbd1141d3c71555f452bc59",
+        "taxId": "13-3179546",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.foodbanknyc.org/"
+    },
+    {
+      "id": "san-francisco-marin-food-bank",
+      "name": "San Francisco-Marin Food Bank",
+      "location": "San Francisco, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "f1a10d99-e937-4631-9138-2f6f506e0463",
+        "configId": "0x5d9b2f3b9800022f5e0fa15230ae67d3586367a1d04cbacb28f8c181dec856d0",
+        "taxId": "94-3041517",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.sfmfoodbank.org/"
+    },
+    {
+      "id": "feed-the-children-inc",
+      "name": "Feed The Children, Inc.",
+      "location": "Oklahoma City, OK",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "18e32360-8e1d-44e7-85b2-094164a0a383",
+        "configId": "0x76449ae11d409ab90262307e5d68a6d118d60ed11fd5d0cb35ad9b8475004cf2",
+        "taxId": "73-6108657",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.feedthechildren.org"
+    },
+    {
+      "id": "utah-food-bank",
+      "name": "Utah Food Bank",
+      "location": "Salt Lake City, UT",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "36d9b55e-cb62-4082-935e-04d3eb210de4",
+        "configId": "0x071fdeeae602cfaff5c4c611bd1c7925b6b057b3737a354ad22d949dd1dddc6c",
+        "taxId": "87-0212453",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.utahfoodbank.org"
+    },
+    {
+      "id": "feeding-san-diego",
+      "name": "Feeding San Diego",
+      "location": "San Diego, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "97700088-026f-4360-af58-fe6e9f70bb35",
+        "configId": "0x60090cbbbc5e456a010beada0c98a8edb00fa9f56432e1daf25eb724386d0761",
+        "taxId": "26-0457477",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://feedingsandiego.org"
+    },
+    {
+      "id": "food-bank-of-iowa",
+      "name": "Food Bank of Iowa",
+      "location": "Des Moines, IA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "54b19b6c-09cc-486f-b490-d01641d431e4",
+        "configId": "0x7c193971936053048675ce00cf80a89ab80f5f930d9b620938a6c33937f32f02",
+        "taxId": "42-1177880",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.foodbankiowa.org/"
+    },
+    {
+      "id": "meals-on-wheels-south-florida",
+      "name": "Meals on Wheels South Florida",
+      "location": "Plantation, FL",
+      "focus": [
+        "seniors",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "c784a0b8-241c-48ac-aa45-32922a26eca6",
+        "configId": "0xf77a39b1e19594b158caa2537d68aab78279e1267c05ee372652c01ace8edaf3",
+        "taxId": "59-2450043",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.mowsoflo.org/"
+    },
+    {
+      "id": "food-forward-inc",
+      "name": "Food Forward, Inc.",
+      "location": "North Hollywood, CA",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "5fd698bd-7620-481a-a616-42ada233cb2d",
+        "configId": "0x50d63f069fe318ead7ee375b1a9c6e67d604e9eb5f3b1a4f91b2eeade2cb7c40",
+        "taxId": "90-0678872",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodforward.org"
+    },
+    {
+      "id": "feed-more",
+      "name": "Feed More",
+      "location": "Richmond, VA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "08acead8-cf39-4c95-8f9a-581b29f5a185",
+        "configId": "0xcf1fa14b584f1dd8ebe59e53e0ad485bd03271fcd54d1ebdfc391e9e4a46e51a",
+        "taxId": "54-1150923",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://feedmore.org"
+    },
+    {
+      "id": "food-bank-for-the-heartland",
+      "name": "Food Bank for the Heartland",
+      "location": "Omaha, NE",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "c5a303ae-a272-4f23-b3d7-95098313b268",
+        "configId": "0x7f056a1dc927809d8338c731d5353791c0c55630e6a666285c55f0d95799ed9f",
+        "taxId": "47-0637701",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodbankheartland.org"
+    },
+    {
+      "id": "rise-against-hunger",
+      "name": "Rise Against Hunger",
+      "location": "Raleigh, NC",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "0bfa8212-4ee6-4bdf-bf10-5c71854861ca",
+        "configId": "0x95ababb20938d6ea451a0833c988d59e9df3da3d8b673a22885608e8f3eb2188",
+        "taxId": "16-1541024",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://riseagainsthunger.org"
+    },
+    {
+      "id": "gods-pantry-food-bank-inc",
+      "name": "God's Pantry Food Bank, Inc.",
+      "location": "Lexington, KY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "bd081f90-a799-4e90-b1cc-c153a8516321",
+        "configId": "0x2f0f3782d2dd6153f3e611695d28ca43366c86b12afaa2a17ed1de19a46a6e88",
+        "taxId": "31-0979404",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.godspantry.org/"
+    },
+    {
+      "id": "sharing-excess",
+      "name": "Sharing Excess",
+      "location": "Philadelphia, PA",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "5d33026b-e5e4-5a65-bfb4-30dc2feb2bcb",
+        "configId": "0x2d01d8d7b76232cea99b91fa65adff24c90c871ae324b5f8991209f638de1595",
+        "taxId": "86-2161466",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://sharingexcess.com"
+    },
+    {
+      "id": "food-bank-of-central-and-eastern-north-carolina-inc",
+      "name": "Food Bank of Central & Eastern North Carolina, Inc.",
+      "location": "Raleigh, NC",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "ba02d707-84a9-4869-9589-7f8d04db6d75",
+        "configId": "0xf4fd328e316e1fc1c71411fcce298ed26b389c7f2e0a310dac2d75e6f838ef62",
+        "taxId": "56-1283426",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodbankcenc.org"
+    },
+    {
+      "id": "we-dont-waste",
+      "name": "We Don't Waste",
+      "location": "Denver, CO",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "c260f93b-1bc5-4296-8b4a-645ba539a34d",
+        "configId": "0x200febff2e8b5f8bcfe0e0c36582fe835c1d4e22069713d54c55340296860239",
+        "taxId": "27-0585966",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.wedontwaste.org"
+    },
+    {
+      "id": "feeding-westchester",
+      "name": "Feeding Westchester",
+      "location": "Elmsford, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "503cbcfb-e0f3-4f81-b154-f2d065b4db20",
+        "configId": "0x1d68f17144a3bbf4e3d972f958fa73f6748564694f7a38161f647b3cd34ca777",
+        "taxId": "13-3507988",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://feedingwestchester.org/"
+    },
+    {
+      "id": "second-harvest-food-bank-of-orange-county-inc",
+      "name": "Second Harvest Food Bank of Orange County, Inc.",
+      "location": "Irvine, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "7d771203-f6f0-44f7-aac2-8e2858d1f2f2",
+        "configId": "0x9916ca3dab439bf018a65630587597db74ff1d2242a5e85eebf5ccd1a40fd875",
+        "taxId": "32-0362611",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://feedoc.org/"
+    },
+    {
+      "id": "feeding-florida",
+      "name": "Feeding Florida",
+      "location": "Tallahassee, FL",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "0116b825-35c1-4e2e-b389-8ff797f89b22",
+        "configId": "0xea168f596b371e8dc70759d586f9575e07258f92400486812214dfa1785f5e74",
+        "taxId": "65-0467165",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.feedingflorida.org/"
+    },
+    {
+      "id": "teen-feed",
+      "name": "Teen Feed",
+      "location": "Seattle, WA",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "19454d65-c888-4093-aeb7-325f8d549432",
+        "configId": "0x80b2b5d434c48d03a1c2e43b390b5f790e92c3b6a16613d9532e4610b1e471d4",
+        "taxId": "94-3034862",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://teenfeed.org"
+    },
+    {
+      "id": "food-bank-of-the-rio-grande-valley-inc",
+      "name": "Food Bank of the Rio Grande Valley Inc",
+      "location": "McAllen, TX",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "83eb04fe-6696-4024-890c-7cc74fe63799",
+        "configId": "0x3e16ffdd6ef0920bac7756abe00e5780fd03e38201fe5fe99e800c4f639dddfd",
+        "taxId": "74-2421560",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodbankrgv.com"
+    },
+    {
+      "id": "white-pony-express",
+      "name": "White Pony Express",
+      "location": "Concord, CA",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "06165385-9605-423f-bb47-627d33ebc5f7",
+        "configId": "0xeaf9c605bad69b7e8063a44575f2bc37e7f20866d397d4ac02584e9dc692dc9d",
+        "taxId": "46-5220565",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://whiteponyexpress.org"
+    },
+    {
+      "id": "new-york-common-pantry",
+      "name": "New York Common Pantry",
+      "location": "New York City, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "0f22601e-d989-441d-8c20-84c4b765aad0",
+        "configId": "0xafac861f76d5c95b91a3b8b3a96b51c7f73a4d1d56a4b24ebdcceb47ae4ed6f6",
+        "taxId": "13-3127972",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://nycommonpantry.org"
+    },
+    {
+      "id": "foodbank-inc",
+      "name": "Foodbank Inc",
+      "location": "Dayton, OH",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "223df4ef-cffa-4ff6-85d1-1d3791c36fa9",
+        "configId": "0x9e949c311f20340e0c953474814b78ccc3f2beb7fed80846123f97b403abb4b2",
+        "taxId": "86-1082880",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://thefoodbankdayton.org"
+    },
+    {
+      "id": "feed-my-starving-children",
+      "name": "Feed My Starving Children",
+      "location": "Coon Rapids, MN",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "71276f64-58af-480d-a9bd-3fff13161555",
+        "configId": "0x0032882a4653798d93adfa44ebd19e20a6d3726e2415f6305da9ca1a22cfa1ab",
+        "taxId": "41-1601449",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.fmsc.org"
+    },
+    {
+      "id": "sacramento-food-bank-and-family-services",
+      "name": "Sacramento Food Bank & Family Services",
+      "location": "Sacramento, CA",
+      "focus": [
+        "food-security",
+        "families"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "94ab5465-d4bf-442e-b2cb-051fef3ce109",
+        "configId": "0x7a70738129b9ee711a6209d6ac975c5f463ca8c3ef258161320aeffb4d831e77",
+        "taxId": "94-3315566",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.sacramentofoodbank.org/"
+    },
+    {
+      "id": "second-harvest-food-bank-of-northeast-tennessee-inc",
+      "name": "Second Harvest Food Bank of Northeast Tennessee, Inc.",
+      "location": "Kingsport, TN",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "0d0cdb65-e92f-429f-9d3e-a0675b9e5aeb",
+        "configId": "0x3453a695043d9da83f187058e29beb6e998c7e5517564f52054beeec1b40803d",
+        "taxId": "62-1303822",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://netfoodbank.org"
+    },
+    {
+      "id": "meals-on-wheels-ministry-inc",
+      "name": "Meals on Wheels Ministry, Inc.",
+      "location": "Tyler, TX",
+      "focus": [
+        "seniors",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "0905fcf7-847c-4e19-8f24-2d46f3afa49b",
+        "configId": "0x480b0a35ade37c74b62656661164a020634c73c176f575670be6955793a0c13f",
+        "taxId": "23-7313019",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.mealsonwheelsetx.org/"
+    },
+    {
+      "id": "fair-food-network",
+      "name": "Fair Food Network",
+      "location": "Detroit, MI",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "15427d08-b81a-4570-8270-04b34bc359ee",
+        "configId": "0x66685efd95d061cc338bcec34301426500ae8238648a7cb97c94c1e88eb97d43",
+        "taxId": "26-4143394",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://fairfoodnetwork.org/"
+    },
+    {
+      "id": "food-bank-of-northeast-georgia",
+      "name": "Food Bank of Northeast Georgia",
+      "location": "Athens, GA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "6dd58c7f-7baa-4532-8583-db6817ea01c8",
+        "configId": "0x9ce208b934b28d6f809303618c47606b5f97a2e3c469b139e9630f19d01add5f",
+        "taxId": "58-1938066",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.foodbanknega.org/"
+    },
+    {
+      "id": "hunger-free-america",
+      "name": "Hunger Free America",
+      "location": "New York City, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "69f6334f-a639-4d5d-abf4-17a894ada212",
+        "configId": "0xd6f3f5d003f8e94f264c9f77b55d62803109196611b94be1af47a28157a09de1",
+        "taxId": "13-3471350",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://hungerfreeamerica.org/en-us"
+    },
+    {
+      "id": "merrimack-valley-food-bank-inc",
+      "name": "Merrimack Valley Food Bank, Inc.",
+      "location": "Lowell, MA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "f7124f49-1205-4e56-9850-36f704281676",
+        "configId": "0xf8106595a0342e4066572ee8fa22ad405e879875babfcab4ea62a7ae022a9e14",
+        "taxId": "22-3241609",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://mvfb.org"
+    },
+    {
+      "id": "farm-share-inc",
+      "name": "Farm Share, Inc.",
+      "location": "Homestead, FL",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "2515b69a-ee51-43ba-ba0d-f36b286fbf58",
+        "configId": "0x69683b966fff152725682622c3de1bc8645f10837327b9f6a3bf5cc6b3bd071a",
+        "taxId": "65-0342192",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.farmshare.org/"
+    },
+    {
+      "id": "food-bank-of-northeast-louisiana-inc",
+      "name": "Food Bank of Northeast Louisiana, Inc.",
+      "location": "Monroe, LA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "5ed04ec9-0a73-4ac9-abf1-c9998f91f1c5",
+        "configId": "0xdf3926b7141a0d6de96ffc09f2dc125d9923ef8bcbf682ef342aba3ffb551ba8",
+        "taxId": "72-1333809",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodbanknela.org"
+    },
+    {
+      "id": "nourish-up",
+      "name": "Nourish Up",
+      "location": "Charlotte, NC",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "3fd2c94e-e7ba-42bd-8a4d-a998bcf56625",
+        "configId": "0xa6666bbae8cc1d8fe3eb4cd4f988d46da3e1798d86fd28dacc1a140d0fb9e981",
+        "taxId": "56-1398498",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://nourishup.org/"
+    },
+    {
+      "id": "higher-hopes",
+      "name": "Higher Hopes!",
+      "location": "Commerce Township, MI",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "85f0e246-31ba-56fb-b0fc-e5e8926b6630",
+        "configId": "0xdc1aa143776a49ee33fef4f16fcd423c66857089c80dcd6b282b59ec1e224e4a",
+        "taxId": "37-1746399",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://higherhopesdetroit.org"
+    },
+    {
+      "id": "food-bank-of-northeast-arkansas",
+      "name": "Food Bank of Northeast Arkansas",
+      "location": "Jonesboro, AR",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "518e6f1a-32bf-454d-8d28-5d63f36b7651",
+        "configId": "0x1cef0a09e4949361100151e0fb85964f1ba5da5066c30f4616212f6c5501b22e",
+        "taxId": "71-0810999",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodbankofnea.org"
+    },
+    {
+      "id": "hunger-at-home",
+      "name": "Hunger at Home",
+      "location": "San Jose, CA",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "34834895-9950-4020-a660-49bb92caa3d6",
+        "configId": "0x54b9a6a50d82a96ae2df39a97d0293cf85f4e95353a69d7e8a35712e8a3dc000",
+        "taxId": "47-5462753",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://hungerathome.org"
+    },
+    {
+      "id": "treasure-coast-food-bank-inc",
+      "name": "Treasure Coast Food Bank, Inc.",
+      "location": "Fort Pierce, FL",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "c4b63756-62b3-4b43-9cb5-4ee902786644",
+        "configId": "0x02121e0bbc95c924a6e0a28f3096caad51dfd74c3e89e69a71bc9e22d5ff9170",
+        "taxId": "65-0123281",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://stophunger.org"
+    },
+    {
+      "id": "food-bank-for-larimer-county",
+      "name": "Food Bank for Larimer County",
+      "location": "Loveland, CO",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "5e892131-2dcb-4d09-a2af-db443ee7a1b3",
+        "configId": "0x53740de26610314b4ccca391457c8c948656a9a639dc13e2154bab67002e22e4",
+        "taxId": "74-2336171",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodbanklarimer.org/"
+    },
+    {
+      "id": "community-cooks-inc",
+      "name": "Community Cooks Inc",
+      "location": "Somerville, MA",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "a0f47005-24ed-5b92-82ca-e8bcd4508498",
+        "configId": "0x01f23e884bfc3a21a18b19dcfeec933041e47f4f8778a9a035336b6a0428c676",
+        "taxId": "45-2351381",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://communitycooks.org"
+    },
+    {
+      "id": "nourish-pierce-county",
+      "name": "Nourish Pierce County",
+      "location": "Tacoma, WA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "12259126-1873-4996-bc7d-924a168d7956",
+        "configId": "0x40f987b0f73d703b6407502385e0213a814a0111f6ad0df04253ec80d2d5bca3",
+        "taxId": "91-1198391",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://nourishpc.org/"
+    },
+    {
+      "id": "the-hunger-project",
+      "name": "The Hunger Project",
+      "location": "New York City, NY",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "3d232bf2-4a6f-465c-a839-8bc72316e006",
+        "configId": "0xfea8965c9a589330725ef9a4e0108d69941aa4f110227d7cc29e7b16909c471d",
+        "taxId": "94-2443282",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://thp.org"
+    },
+    {
+      "id": "helena-food-share-inc",
+      "name": "Helena Food Share, Inc",
+      "location": "Helena, MT",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "57c84b47-ae17-4419-8ca8-0d1980071e6a",
+        "configId": "0x669d28ea8e135891d78fd00fbe2afb417155337f387410a53a5d3c6873a1aac5",
+        "taxId": "36-3507623",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://helenafoodshare.org/"
+    },
+    {
+      "id": "slo-food-bank",
+      "name": "SLO Food Bank",
+      "location": "San Luis Obispo, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "e0ea9bd0-2176-4a9b-a279-2d4ee1bd3825",
+        "configId": "0x84efe5e6cfa07b2a9af11415e1d68b3c473ba8dbcd0f85a8152b05689e3d6375",
+        "taxId": "77-0210727",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://slofoodbank.org/en"
+    },
+    {
+      "id": "meals-on-wheels-montgomery-county",
+      "name": "Meals on Wheels Montgomery County",
+      "location": "Conroe, TX",
+      "focus": [
+        "seniors",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "ddb42ceb-43c3-420c-a8e1-73c9053ed814",
+        "configId": "0x413d60021d10b91efe7a0a5debae96307a40705265e1f554ff961b624f577d52",
+        "taxId": "23-7310650",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.mowmc.org/"
+    },
+    {
+      "id": "westmoreland-county-food-bank",
+      "name": "Westmoreland County Food Bank",
+      "location": "Delmont, PA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "4815aa65-8fab-4e5f-9bf9-74a55506a93e",
+        "configId": "0x980d02b4f2f5faed99f3df3b9c5850db06c84fdc0995d38cee65266603c6c650",
+        "taxId": "25-1422682",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.westmorelandfoodbank.org/"
+    },
+    {
+      "id": "food-connection-inc",
+      "name": "Food Connection Inc.",
+      "location": "Asheville, NC",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "02eecf2f-a4b9-5a55-8b9a-106eac550c0b",
+        "configId": "0x8603d9565bd00d0824394f1b1a60bb8c794ddc68715e741ee5019c125c889c92",
+        "taxId": "81-4190128",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://food-connection.org"
+    },
+    {
+      "id": "us-hunger",
+      "name": "U.S. Hunger",
+      "location": "Longwood, FL",
+      "focus": [
+        "families",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "fbe665ce-33bc-45f3-bba1-b5d3bea32c98",
+        "configId": "0xf1b1b89156d5dbb5fa2c984127540e2583820f0b36bf7f15ded77dd2c3c5a45b",
+        "taxId": "27-3274349",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://ushunger.org/"
+    },
+    {
+      "id": "emergency-food-bank",
+      "name": "Emergency Food Bank",
+      "location": "Stockton, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "5d32a557-6575-46cb-9ba4-9cc13ac47e55",
+        "configId": "0x89b1ca1545855d46a04733c6d2fa729456932d33bbde542ecb95e49d0b8979d4",
+        "taxId": "68-0002165",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.stocktonfoodbank.org/"
+    },
+    {
+      "id": "table-to-table-food-distribution-network",
+      "name": "Table To Table Food Distribution Network",
+      "location": "Iowa City, IA",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "e200dbd7-0624-52fb-8eac-2b31f0ce9a35",
+        "configId": "0x6756f7c57bd250ce534ceb67c49281aa27fda491d8f9c73e26d53cebdbfeb26f",
+        "taxId": "42-1457219",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://table2table.org"
+    },
+    {
+      "id": "food-for-people-inc",
+      "name": "Food for People Inc",
+      "location": "Eureka, CA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "94beb5a2-fff5-483b-9970-8e3243d9b01e",
+        "configId": "0xca1528c1477d098fc7ffc74f69008c6b0b45cc41c706d585bd8d6984bf84d520",
+        "taxId": "94-2772549",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.foodforpeople.org"
+    },
+    {
+      "id": "meals-on-wheels-plus-of-manatee-inc",
+      "name": "Meals on Wheels Plus of Manatee, Inc.",
+      "location": "Bradenton, FL",
+      "focus": [
+        "seniors",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "d8b80d99-4c1a-4eb5-a5cb-c548b8f10f5a",
+        "configId": "0xd2e00bb098620457c7699dd05b5b92a99e9724b91cd9270579952655ca9b2a8f",
+        "taxId": "59-1420986",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "http://www.mealsonwheelsplus.org/"
+    },
+    {
+      "id": "farm-fresh-rhode-island",
+      "name": "Farm Fresh Rhode Island",
+      "location": "Providence, RI",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "07fa6969-ec96-427f-8844-d16820aa2f88",
+        "configId": "0xb6f572e9fdc6c1871f74fcee8f8b144d96fc093eb5b94a880630fc0682c74cc4",
+        "taxId": "20-4625643",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.farmfreshri.org/"
+    },
+    {
+      "id": "target-hunger",
+      "name": "Target Hunger",
+      "location": "Houston, TX",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "56e48ee6-c754-4f57-8af0-571dd97d85e1",
+        "configId": "0x4a4ea1c61816f69250f1e48a3e3aab5ee0e862ce330c4a908c5bd7c13e74c473",
+        "taxId": "31-1548849",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.targethunger.org"
+    },
+    {
+      "id": "food-helpers",
+      "name": "Food Helpers",
+      "location": "Brownsville, PA",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "46a4b1c4-5565-409d-bb33-7195001bd1fc",
+        "configId": "0xc0040fcd907536df7142c12afa157ca19b853447af11c767a6cbcf7ecb892480",
+        "taxId": "23-2939247",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://gwcfoodbank.org"
+    },
+    {
+      "id": "our-daily-bread-inc",
+      "name": "Our Daily Bread Inc",
+      "location": "Denton, TX",
+      "focus": [
+        "homelessness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "47108816-1ad5-4c09-aeea-ce742a08e35b",
+        "configId": "0x3ff2c72f7ab359d48fb25a5f223c8104e04c5349c5841fda83b2f4240492a37d",
+        "taxId": "61-1698166",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.ourdailybreaddenton.org"
+    },
+    {
+      "id": "food-access-la",
+      "name": "Food Access LA",
+      "location": "Los Angeles, CA",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "038e026e-3ca9-416b-983b-70900ef06385",
+        "configId": "0x30773e10214618c5e891d9434f00f61301421a609e8262d5dd14b6cf28844ad3",
+        "taxId": "95-4597000",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodaccessla.org/"
+    },
+    {
+      "id": "feeding-our-community-ourselves-inc",
+      "name": "Feeding Our Community Ourselves Inc",
+      "location": "Fort Collins, CO",
+      "focus": [
+        "food-security",
+        "community"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "302ef764-6697-566e-a021-a0881cdd8711",
+        "configId": "0x896f4aec3ebf3635cde176d73f8abcde8466e2fd0bdc5b89fb1af4d5f060729a",
+        "taxId": "46-1283773",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://fococafe.org/"
+    },
+    {
+      "id": "food-for-thought",
+      "name": "Food for Thought",
+      "location": "Forestville, CA",
+      "focus": [
+        "critical-illness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "5a70b221-a357-4731-9f67-f4547e2d98a0",
+        "configId": "0xca3c237173ec83449ba4273f11e5d9a464fa021c1d12eeab1013323cc98e8996",
+        "taxId": "68-0181095",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://fftfoodbank.org"
+    },
+    {
+      "id": "the-beacon-project-incorporated",
+      "name": "The Beacon Project, Incorporated",
+      "location": "Norman, OK",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "8a2afd56-132f-5e2e-86b0-055057500207",
+        "configId": "0x7e4a2d8c29a70d44696860dd20c0956caad7058c56fb1d9e14376ac3f537f384",
+        "taxId": "83-3448801",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.thebeaconproject.org/"
+    },
+    {
+      "id": "hope-starts-here-food-bank",
+      "name": "Hope Starts Here Food Bank",
+      "location": "Centennial, CO",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "44d98358-f75b-54f6-8576-11f7d974f116",
+        "configId": "0x19e618ffdd4a61d422c581ae42d2c2676843554a1ae8c0cf37c62607581d2046",
+        "taxId": "81-5106159",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.hshfoodbank.org/"
+    },
+    {
+      "id": "food-of-god-for-the-people-of-god",
+      "name": "Food of God for the People of God",
+      "location": "Oakland, CA",
+      "focus": [
+        "homelessness",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "1cc440cf-3118-5776-b692-0fec1c833358",
+        "configId": "0xfc1fe884adea8c3ba44b74eed6eb20b2da7220daf74c0ec964e81b473488f393",
+        "taxId": "27-5348142",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://foodofgod.wordpress.com"
+    },
+    {
+      "id": "its-all-about-the-kids-foundation",
+      "name": "Its All About the Kids Foundation",
+      "location": "San Diego, CA",
+      "focus": [
+        "children",
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "cafe759f-b3a5-53df-92fb-486cacdbfe97",
+        "configId": "0xa9eade5611c708da22e4790c63edfc99d79a912cb05d10c580e80898512cb27b",
+        "taxId": "20-1114086",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://www.itsallaboutthekids.org/"
+    },
+    {
+      "id": "south-park-food-bank",
+      "name": "South Park Food Bank",
+      "location": "Fairplay, CO",
+      "focus": [
+        "food-security"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "585dd098-efef-5719-8532-f199140d91ec",
+        "configId": "0x4a0df0b85d0fc98556d4eb4291405d5c18ff0d54f1e341e4de8a862faa5e95e8",
+        "taxId": "33-1106905",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://southparkfoodbank.org/"
+    },
+    {
+      "id": "feeding-avery-families",
+      "name": "Feeding Avery Families",
+      "location": "Banner Elk, NC",
+      "focus": [
+        "food-security",
+        "families"
+      ],
+      "status": "approved",
+      "donate": {
+        "charityId": "cff1ce11-dae3-5fa6-ba19-96b1d3f167fc",
+        "configId": "0x7e6d5d045a98f8b6b2bc0f45a0418a441a2b19d42a7a913ce8bbc587ed981457",
+        "taxId": "45-2302126",
+        "signedUp": false,
+        "feeBps": 300,
+        "checkedAt": "2026-11-26"
+      },
+      "website": "https://feedingaveryfamilies.org/"
+    }
+  ],
+  "queues": {
+    "thanksgiving": [
+      "feeding-america-tampa-bay-inc",
+      "slice-out-hunger",
+      "georgia-mountain-food-bank-inc",
+      "feeding-america",
+      "operation-turkey-daily",
+      "thanksgiving-heroes-llc",
+      "thanksgiving-heroes-foundation",
+      "new-world-flood",
+      "glide-foundation",
+      "feeding-america-kentuckys-heartland-inc",
+      "feeding-america-riverside-and-san-bernardino-counties",
+      "st-johns-bread-and-life-program-inc",
+      "food-on-foot",
+      "gods-love-we-deliver-inc",
+      "stowe-mission-of-central-ohio",
+      "open-arms-of-minnesota-inc",
+      "person-to-person-inc",
+      "new-hope-ministries-inc",
+      "rogue-food-unites",
+      "good-neighbor-settlement-house",
+      "jesus-provides-our-daily-bread",
+      "teen-kitchen-project",
+      "convoy-of-hope",
+      "food-for-the-poor-inc",
+      "world-food-program-usa",
+      "the-growhaus",
+      "eat-learn-play",
+      "meals-on-wheels-america",
+      "city-harvest-inc",
+      "kids-meals-inc",
+      "second-harvest-heartland",
+      "maryland-food-bank-inc",
+      "regional-food-bank-of-oklahoma",
+      "food-bank-of-alaska",
+      "northwest-harvest",
+      "no-kid-hungry-by-share-our-strength",
+      "philabundance",
+      "houston-food-bank",
+      "community-servings-inc",
+      "food-bank-for-new-york-city",
+      "san-francisco-marin-food-bank",
+      "feed-the-children-inc",
+      "utah-food-bank",
+      "feeding-san-diego",
+      "food-bank-of-iowa",
+      "meals-on-wheels-south-florida",
+      "food-forward-inc",
+      "feed-more",
+      "food-bank-for-the-heartland",
+      "rise-against-hunger",
+      "gods-pantry-food-bank-inc",
+      "sharing-excess",
+      "food-bank-of-central-and-eastern-north-carolina-inc",
+      "we-dont-waste",
+      "feeding-westchester",
+      "second-harvest-food-bank-of-orange-county-inc",
+      "feeding-florida",
+      "teen-feed",
+      "food-bank-of-the-rio-grande-valley-inc",
+      "white-pony-express",
+      "new-york-common-pantry",
+      "foodbank-inc",
+      "feed-my-starving-children",
+      "sacramento-food-bank-and-family-services",
+      "second-harvest-food-bank-of-northeast-tennessee-inc",
+      "meals-on-wheels-ministry-inc",
+      "fair-food-network",
+      "food-bank-of-northeast-georgia",
+      "hunger-free-america",
+      "merrimack-valley-food-bank-inc",
+      "farm-share-inc",
+      "food-bank-of-northeast-louisiana-inc",
+      "nourish-up",
+      "higher-hopes",
+      "food-bank-of-northeast-arkansas",
+      "hunger-at-home",
+      "treasure-coast-food-bank-inc",
+      "food-bank-for-larimer-county",
+      "community-cooks-inc",
+      "nourish-pierce-county",
+      "the-hunger-project",
+      "helena-food-share-inc",
+      "slo-food-bank",
+      "meals-on-wheels-montgomery-county",
+      "westmoreland-county-food-bank",
+      "food-connection-inc",
+      "us-hunger",
+      "emergency-food-bank",
+      "table-to-table-food-distribution-network",
+      "food-for-people-inc",
+      "meals-on-wheels-plus-of-manatee-inc",
+      "farm-fresh-rhode-island",
+      "target-hunger",
+      "food-helpers",
+      "our-daily-bread-inc",
+      "food-access-la",
+      "feeding-our-community-ourselves-inc",
+      "food-for-thought",
+      "the-beacon-project-incorporated",
+      "hope-starts-here-food-bank",
+      "food-of-god-for-the-people-of-god",
+      "its-all-about-the-kids-foundation",
+      "south-park-food-bank",
+      "feeding-avery-families"
+    ]
+  },
+  "announcements": [],
+  "milestones": [],
+  "data": {
+    "impactUrl": "impact.json",
+    "routeCheckUrl": "/api/route-check",
+    "refreshSeconds": 60,
+    "maxSignatures": 3000
+  },
+  "display": {
+    "demo": false
+  },
+  "auditLog": [
+    {
+      "at": "2026-11-26T14:00:00.000Z",
+      "actor": "Admin",
+      "action": "project.created",
+      "routing": true,
+      "details": "Set up Turkeycoin ($TURKEY): one Thanksgiving line of 102 charities, 30-minute turns",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T14:00:01.000Z",
+      "actor": "Admin",
+      "action": "rotation.restarted",
+      "routing": true,
+      "details": "Rotation set to start at 2026-11-26T09:00 (America/New_York). Press Start over at launch.",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T14:40:00.000Z",
+      "actor": "Admin",
+      "action": "line.replaced",
+      "routing": true,
+      "details": "New Thanksgiving line: 24 charities picked for Thanksgiving (Thanksgiving dinners, turkey drives, food banks, meal programs), none from HOPE's line. Kept in this order.",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T16:10:00.000Z",
+      "actor": "Admin",
+      "action": "rotation.interval",
+      "routing": true,
+      "details": "Turns changed from 30 minutes to 15 minutes.",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T17:10:00.000Z",
+      "actor": "Admin",
+      "action": "line.added",
+      "routing": true,
+      "details": "Thanksgiving line grown from 24 to 104 charities, all food-related: food banks, meal programs, meals on wheels, food rescue and children's hunger groups. 4 signed up with donate.gg, 100 by card.",
+      "reason": ""
+    }
+  ],
+  "receipts": []
+}
