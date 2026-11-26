@@ -5,7 +5,7 @@
     "ticker": "$TURKEY",
     "network": "Solana",
     "slogan": "Thanksgiving, on chain.",
-    "contractAddress": "7RqbvhqbQcehUJvYPJihQVfNaoaPAodFjkd5i12epump",
+    "contractAddress": null,
     "donationWallet": "5BxsjAAJXAmScQsG8pe5uvggtNK3rhyeKv7duND2em2R",
     "links": {
       "x": "https://x.com/turkeycoinpf",
@@ -2169,6 +2169,14 @@
       "action": "project.updated",
       "routing": true,
       "details": "Contract address: 7RqbvhqbQcehUJvYPJihQVfNaoaPAodFjkd5i12epump",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T22:59:59.152Z",
+      "actor": "Admin",
+      "action": "project.updated",
+      "routing": true,
+      "details": "Contract address: none",
       "reason": ""
     }
   ],
