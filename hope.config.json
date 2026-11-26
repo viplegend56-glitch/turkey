@@ -6,9 +6,9 @@
     "network": "Solana",
     "slogan": "Thanksgiving, on chain.",
     "contractAddress": null,
-    "donationWallet": null,
+    "donationWallet": "5BxsjAAJXAmScQsG8pe5uvggtNK3rhyeKv7duND2em2R",
     "links": {
-      "x": null,
+      "x": "https://x.com/turkeycoinpf",
       "telegram": null,
       "website": "https://turkeycoin.site"
     }
@@ -2145,6 +2145,14 @@
       "action": "rotation.restarted",
       "routing": true,
       "details": "Started the rotation over from the first charity at 2026-11-26T16:28 (America/New_York), was 2026-11-26T09:00",
+      "reason": ""
+    },
+    {
+      "at": "2026-11-26T22:06:49.129Z",
+      "actor": "Admin",
+      "action": "project.updated",
+      "routing": true,
+      "details": "X: https://x.com/turkeycoinpf; Donation wallet: 5BxsjAAJXAmScQsG8pe5uvggtNK3rhyeKv7duND2em2R",
       "reason": ""
     }
   ],
